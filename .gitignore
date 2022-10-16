@@ -1,4 +1,4 @@
 venv/
 dbsqlite3/
-idea/
+.idea/
 lib/
