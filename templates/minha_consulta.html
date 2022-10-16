@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <p>Pesquisa realizada no dia: {{ form.data_pesquisa.value }}</p>
+    <p>Sua origem é: {{ form.origem.value }}</p>
+    <p>Seu destino é: {{ form.destino.value }}</p>
+    <p>Data de ida é: {{ form.data_ida.value }}</p>
+    <p>Data de volta é: {{ form.data_volta.value }}</p>
+    <p>A quantidade de adultos é: {{ form.qtd_adultos.value }}</p>
+    <p>A quantidade de crianças é: {{ form.qtd_criancas.value }}</p>
+    <p>A classe de voo: {{ form.classes_viagem.value }}</p>
+    <p>Informações extras: {{ form.informacoes.value }}</p>
+    <p>E-mail: {{ pessoa_form.email.value }}</p>
+
+
+{% endblock %}
